@@ -3,12 +3,11 @@ package inmobi;
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
-import java.util.ArrayList;
 
-public class RelevantProducts {
+public class AllProducts {
 
-	@SuppressWarnings("unused")
-	public static String[][] productsForTags(String taggedTrend) throws IOException {
+	@SuppressWarnings({ "unused", "resource" })
+	public  String[][] productsForTags() throws IOException {
 		// TODO Auto-generated method stub
 		
 		FileReader productdataset = new FileReader("D://Users/vineek/Desktop/amzdata.txt");
